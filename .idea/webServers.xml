@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="fb1e22d5-58cd-4dbd-ac8c-23c35b138a52" name="alwaysdata" url="https://thibaultldz.alwaysdata.net/">
+        <fileTransfer rootFolder="/home/thibaultldz/www" accessType="SFTP" host="ssh-thibaultldz.alwaysdata.net" port="22" sshConfigId="ef28e1e9-37ef-4ded-88de-b5abd877a375" sshConfig="thibaultldz@ssh-thibaultldz.alwaysdata.net:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

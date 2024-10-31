@@ -1,0 +1,65 @@
+<div class="text-center">
+    <h1>Mon Profil</h1>
+</div>
+
+<ul id="profilContent">
+    <li><a href="#" onclick="toggleContent('quiSuisJeContent', 'arrow1')" class="arrow"><span id="arrow1" class="arrow-down"></span>Qui suis-je ?</a></li>
+    <div id="quiSuisJeContent" style="display: none">
+        <p style=" text-indent: 30px; font-size: 24px" class="m-0">
+            <img id="imageprofil" src="img/imageprofil.jpg" alt="Description de l'image" class="animate__animated animate__fadeInDown">
+            Je m’appelle Thibault Landaz, j’ai 19 ans, et j'ai décroché mon baccalauréat général.
+            Actuellement, je poursuis mes études en BTS Services Informatiques aux Organisations (SIO).
+        </p>
+        <p style=" text-indent: 30px; font-size: 24px" class="m-0">
+            Mon parcours académique a été marqué par un intérêt précoce pour l'informatique.
+            Dès mon plus jeune âge, j'ai été fasciné par les technologies émergentes.
+            Cette passion m'a naturellement conduit à choisir une filière alignée sur mes aspirations professionnelles.
+        </p>
+        <p style=" text-indent: 30px; font-size: 24px" class="m-0">
+            En ce moment, je suis immergé dans le monde de l'informatique avec mon cursus en BTS SIO.
+            Cette formation me permet d'acquérir des compétences pointues en programmation,
+            en gestion de réseaux et en sécurité informatique,
+            tout en comprenant les enjeux spécifiques aux services informatiques dans les organisations.
+        </p>
+    </div>
+
+
+    <li><a href="#" onclick="toggleContent('mesCompetencesContent','arrow2')" class="arrow"><span id="arrow2" class="arrow-down"></span>Mes Compétences</a></li>
+    <div id="mesCompetencesContent" style="display: none;">
+        <p style="text-indent: 30px; font-size: 24px" class="m-0">
+            Languages et logiciels maitrisés (Débutant-Intermédiaire) :
+        </p>
+        <img src="img/css.png" alt="En construction" style="width: 65px; height: auto;" class="animate__animated animate__fadeInDown">
+        <img src="img/javascript.png" alt="En construction" style="width: 53px; height: auto;" class="animate__animated animate__fadeInDown">
+        <img src="img/html.png" alt="En construction" style="width: 60px; height: auto;" class="animate__animated animate__fadeInDown">
+        <img src="img/phpstorm.png" alt="En construction" style="width: 60px; height: auto;" class="animate__animated animate__fadeInDown">
+        <p style="text-indent: 30px; font-size: 24px" class="m-0">
+        <p>-Connaissance des bonnes pratiques de sécurité</p>
+        <p>-Communique efficacement et clairement</p>
+        <p>-Sait travailler en équipe efficacement</p>
+        <p>-Sait maintenir sa productivité et son organisation</p>
+
+        </p>
+
+    </div>
+
+    <li><a href="#" onclick="toggleContent('cvContent','arrow3')" class="arrow"><span id="arrow3" class="arrow-down"></span>Mon CV</a></li>
+    <div id="cvContent" style="display: none">
+        <div class="centered-links">
+            <a href="#" onclick="openPdfPreview('/pdf/cvThibaultLandaz.pdf')">Aperçu</a>
+            <a href="/pdf/cvThibaultLandaz.pdf" download="CvThibaultLandaz.pdf">Télécharger</a>
+        </div>
+    </div>
+
+    <li><a href="#" onclick="toggleContent('lettreMotivationContent','arrow4')" class="arrow"><span id="arrow4" class="arrow-down"></span>Ma Lettre de Motivation</a></li>
+    <div id="lettreMotivationContent" style="display: none">
+        <div class="centered-links">
+            <a href="#" onclick="openPdfPreview('/pdf/ldmThibaultLandaz.pdf')">Aperçu</a>
+            <a href="/pdf/ldmThibaultLandaz.pdf" download="ldmThibaultLandaz.pdf">Télécharger</a>
+        </div>
+    </div>
+</ul>
+
+
+
+
